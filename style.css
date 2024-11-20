@@ -1,0 +1,88 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    background: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Logo Styling */
+#logo h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #4CAF50;
+    margin: 20px 0;
+}
+
+/* Slot Machine Section */
+.slot-machine {
+    margin-top: 40px;
+}
+
+.slot {
+    font-size: 60px;
+    margin: 0 10px;
+    width: 80px;
+    text-align: center;
+}
+
+/* Blackjack Section */
+.blackjack-game {
+    margin-top: 40px;
+}
+
+#dealerCards, #playerCards {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+#dealerTotal, #playerTotal {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 5px;
+    color: #333;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+button:disabled {
+    background-color: #ccc;
+}
+
+input {
+    padding: 5px;
+    font-size: 16px;
+}
+
+/* Result Display */
+#slotResult, #blackjackResult {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#balance {
+    margin-bottom: 30px;
+}
